@@ -52,14 +52,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huanguolin/react-native-badge-turbo.git"
+    "url": "git+https://github.com/leyserkids/react-native-badge-turbo.git"
   },
-  "author": "leyserkids <huanguolin@outlook.com> (https://github.com/huanguolin)",
+  "author": "leyserkids <leyserkids@outlook.com> (https://github.com/leyserkids)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/huanguolin/react-native-badge-turbo/issues"
+    "url": "https://github.com/leyserkids/react-native-badge-turbo/issues"
   },
-  "homepage": "https://github.com/huanguolin/react-native-badge-turbo#readme",
+  "homepage": "https://github.com/leyserkids/react-native-badge-turbo#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -191,7 +191,7 @@
       "android": "android/generated"
     },
     "android": {
-      "javaPackageName": "com.badgeturbo"
+      "javaPackageName": "com.grapecity.leyser.badge"
     },
     "includesGeneratedCode": true
   },

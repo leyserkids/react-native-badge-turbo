@@ -42,7 +42,7 @@ def supportsNamespace() {
 
 android {
   if (supportsNamespace()) {
-    namespace "com.badgeturbo"
+    namespace "com.grapecity.leyser.badge"
 
     sourceSets {
       main {
@@ -100,12 +100,13 @@ def kotlin_version = getExtOrDefault("kotlinVersion")
 dependencies {
   implementation "com.facebook.react:react-android"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+  implementation 'me.leolin:ShortcutBadger:1.1.22@aar'
 }
 
 if (isNewArchitectureEnabled()) {
   react {
     jsRootDir = file("../src/")
     libraryName = "BadgeTurbo"
-    codegenJavaPackageName = "com.badgeturbo"
+    codegenJavaPackageName = "com.grapecity.leyser.badge"
   }
 }
