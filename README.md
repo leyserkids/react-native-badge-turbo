@@ -12,11 +12,18 @@ npm install react-native-badge-turbo
 
 
 ```js
-import { multiply } from 'react-native-badge-turbo';
+import { 
+  getBadgeCount,
+  setBadgeCount,
+  isBadgeSupported,
+} from 'react-native-badge-turbo';
 
 // ...
 
-const result = multiply(3, 7);
+if (isBadgeSupported()) {
+    const cnt = await getBadgeCount();
+    await setBadgeCount(cnt + 1);
+}
 ```
 
 
